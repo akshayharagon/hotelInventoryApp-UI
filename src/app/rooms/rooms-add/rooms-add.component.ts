@@ -22,6 +22,7 @@ export class RoomsAddComponent {
     rating: 0
   }
   successMessage: string = ''
+  
 
   AddRoom(roomsForm:NgForm) {
     this.roomService.addRoom(this.room).subscribe((data) => {
