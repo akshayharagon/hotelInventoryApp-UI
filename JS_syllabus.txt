@@ -1,0 +1,19 @@
+
+JavaScript Beginning: syllabus
+
+1. Basics of programming in JavaScript
+2. Arrays in JavaScript
+3. Objects in JavaScript
+4. Funtions in JavaScript
+5. Very important array methods
+6. More useful things
+7. Object oriented JavaScript/ Prototypal inheritance
+8. How JavaScript works
+9. DOM tutorial
+10. Asynchronous JavaScript
+
+
+VS code installing and play around:
+	script tag to be used in body tag, if using in head tag the use with "defer"
+	<script src="file1.js" defer></script>
+
