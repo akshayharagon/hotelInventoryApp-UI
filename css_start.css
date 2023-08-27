@@ -1,0 +1,26 @@
+/* CSS 1
+
+
+CSS 3 : current version
+
+implementation of css : 3 ways
+1. inline css as style attribute in html tag
+2. style tag in html head tag
+3. external css file(link tag)
+
+
+serif font: unequal width
+sans serif: equal width
+
+using google fonts: 1st way) add link in html head 2nd way) add import statement to css file
+
+color picker:
+rgb => n,n,n
+hexcode => #xxxxxx  (x can be anything '0' to '10' and 'a' to 'f' in increasing darkness)
+#ffffff : white, #000000 : black
+                    =>  1st xx for red
+                        2nd xx for green 
+                        3rd xx for blue
+
+header tag, footer tag, section tag, main tag, article tag are just part of semantic html markups for organizing the code
+*/

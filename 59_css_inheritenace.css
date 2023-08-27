@@ -1,0 +1,11 @@
+body{
+    color: red;
+}
+
+.container1{
+    color: green;
+}
+
+/* all elements present inside one element will inherit properties from parent tag
+but can be overriden */
+/* for anchor browser will provide it's own overriden color  */

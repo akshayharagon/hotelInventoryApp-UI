@@ -1,0 +1,43 @@
+/* % */
+/* whenever we r giving size in % then it will consider in relative with size provided by its parent tag(if not then browser) */
+
+/* rem */
+/* in relation with the html-root element size */
+/* html{
+    font-size: 16px
+} */
+/* here font-size: xpx decides size of every attrubutes while using in html tag */
+
+/* most of the developers prefer  font-size: 10px; in html tag 62.5%(relative to default 16px browser size) which can be equal to 10px  */
+
+/* better to give html{font-size:62.5%} so that browser settings fonts will also get impacted  */
+
+/* em */
+/* this will look in relation with it's parent tag, where as rem looks in relation with root element size */
+/* if em is applied to properties other than font-size, then the size will be in relation with font-size of its own tag  */
+
+/* best practice: rem for font-size and em for other properties(padding, margin etc) */
+
+html{
+    font-size: 20px;
+}
+h2{
+    border: 8px solid red;
+    font-size: 16px;
+}
+p.text{
+    border: 0.5rem solid red;
+    padding: 1rem;
+}
+
+
+
+
+
+/* view-port units (size for a screen view)*/
+/* vh, vw, vmin, vmax */
+/*  100vw = full width of screen
+    50vw = half width of screen */
+    /* suitable for fixed size of screen for various device screens */
+/* vmin will take min among vh and vw */
+/* vmax will take max among vh and vw */

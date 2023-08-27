@@ -1,0 +1,17 @@
+/* p as 1st child only */
+p:first-child{
+    color: red;
+}
+
+p:last-child{
+    color: orange;
+}
+
+/* p as 1st of the those p type */
+p:first-of-type{
+    color: green
+}
+
+p:last-of-type{
+    color: pink;
+}

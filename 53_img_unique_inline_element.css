@@ -1,0 +1,7 @@
+img{
+    width: 300px;
+    border: 4px solid red;
+    padding: 4px;
+    margin: 10px;
+}
+/* margin, padding everything is proper in inline img element unlike others  */

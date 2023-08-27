@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: pink;
+    /* transition-property: background;
+    transition-duration: 0.5s; */
+    /* transition: background 500ms ease-in,
+                width 500ms ease-in,
+                height 1s ease-in; */
+    transition: all 500ms ease-in;
+    
+}
+
+.box:hover{
+    background: lightcoral;
+    width: 200px;
+    height: 50px;   
+}

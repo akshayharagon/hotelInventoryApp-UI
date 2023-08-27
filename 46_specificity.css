@@ -1,0 +1,19 @@
+/* specificity =>
+    inline style attribute > id selector > class with element > last class > before class selector > element selector
+*/
+/* we can give 1st priority to any selector using '!important' */
+h1{
+    color: red;
+}
+
+.h1class{
+    color: green
+}
+
+.heading1{
+    color: magenta;
+}
+
+#h1id{
+    color: pink !important;
+}

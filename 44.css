@@ -1,0 +1,23 @@
+/* x attribute selector of y tag */
+input[type="text"]{
+    color: red
+}
+
+a[href="https://www.google.co.uk/"]{
+    color: green
+}
+
+/* attribute value conataining x string */
+a[href *="google"]{
+    color: green
+}
+
+/* attribute value starts with x string */
+a[href ^="https"]{
+    color: blue
+}
+
+/* attribute value ends with x string */
+a[href $=".com"]{
+    color: pink
+}

@@ -1,0 +1,23 @@
+
+/* flex-items properties */
+
+/* align-self => property for overriding align-items */
+/* order:n => order can be set from css */
+/* flex-basis => will be considered as height or width as per flex-direction with flex-wrap:wrap */
+/* flex-grow => 0, 1 => occupies left out space proportionally as per the values */
+/* flex-shrink => flex-items can be made shrink proportionately */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper{
+    border: 10px solid #222;
+    height: 500px;
+    display: flex;
+}
+
+.box{
+    border: 1px solid #666;
+}
+

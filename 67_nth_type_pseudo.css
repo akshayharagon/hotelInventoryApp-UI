@@ -1,0 +1,15 @@
+/* nth p-child of element  */
+p:nth-child(2){
+    color: red;
+}
+
+/* every nth p-child of element,  
+we can give any formula in paranthesis */
+p:nth-child(2n){
+    color: red;
+}
+
+/* similarly we have nth-of-type */
+p:nth-of-type(2){
+    color: orange;
+}

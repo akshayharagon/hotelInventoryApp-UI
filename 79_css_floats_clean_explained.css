@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+/* css-float will be used for flaoting block level elements */
+.fav-musicians{
+    border: 10px solid green;
+}
+
+.mozart{
+    width: 25%;
+    float: left;
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+.beethoven{
+    width: 25%;
+    float: left;
+    background-color: lightsalmon;
+    padding: 5px;
+}
+.bach{
+    width: 25%;
+    float: left;
+    background-color: lightblue;
+    padding: 5px;
+}
+.paganini{
+    width: 25%;
+    float: left;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+/* if we apply float to the elements then that will come out of normal document flow */
+/* so to keep th float elements within document we can use clearfix like this  */
+
+/* .clearfix{
+    clear: both;
+} */
+
+/* one more way to handle floats is using after pseudo class(clearfix class as pseudo class from css)  without altering any html elements*/
+.fav-musicians::after{
+    content: 'akshay';
+    display: block;
+    clear: both;
+}

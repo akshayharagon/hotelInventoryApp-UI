@@ -1,0 +1,12 @@
+.cool::before{
+    content: 'hello '
+}
+.cool::after{
+    content: 'hello '
+}
+
+/* so here content itself becomes an element by default an inline one */
+
+/* we cannot select pseudo elements in we page */
+
+/* before and after pseudo elements cannot be used with some elements like img, br, input and etc */

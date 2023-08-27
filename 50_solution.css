@@ -1,0 +1,16 @@
+h2{
+    background: gray;
+    width: 900px;
+    border: black 2px solid;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: uppercase
+}
+
+div{
+    border: black 1px solid;
+    padding-left: 2px; 
+    padding-right: 2px;
+    width: 900px;
+    margin: 50px auto
+}

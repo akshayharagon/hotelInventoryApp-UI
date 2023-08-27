@@ -1,0 +1,11 @@
+a{
+    border: 2px solid black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;;
+    margin: 20px;
+    padding: 20px;
+}
+/* display: inline-block is diff than display: block and display inline */
+/* display: inline-block makes element combination of both inline and block properties */
+/* we can get control over all css properties  */

@@ -1,0 +1,7 @@
+/* border takes size as element is consuming */
+
+h2, img{
+    /* border: 4px red solid; */
+    border-bottom: 4px red solid;
+    border-radius: 10px;
+}

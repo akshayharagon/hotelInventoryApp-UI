@@ -1,0 +1,25 @@
+/* those elements iniside whose tag tag is not p */
+
+/* body :not(p){
+    color: blue
+} */
+body :not(.fancy){
+    color: red;
+}
+
+
+div:empty{
+    background: green;
+    height: 100px;
+    width: 100px
+}
+
+/* html tag is the root element of DOM */
+/* so we can use  either of root and html */
+/* root specificity is more */
+html{
+    background: red;
+}
+:root{
+    background: #333;
+}

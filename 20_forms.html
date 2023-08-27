@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <form action="thankyou.html" method="GET">
+        <!-- <label for="username">Username: </label> -->
+        <input type="text" id =username name="username" value="User Name" placeholder="username" required> <br> <br>
+        <label for="password">Password: </label>
+        <input type="password" id =password name="password" placeholder="your password" required><br> <br>
+        <label for="email">Email: </label>
+        <input type="email" id =emial name="email"><br> <br>
+
+        <p>select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male"> <br><br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female"> <br><br>
+
+        <label for="age-group"> select you age</label>
+        <select name="age-group" id="age-group">
+            <option value="5-10">5-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30+">30+</option>
+        </select><br><br>
+        <label for="text-area">Description</label> <br> <br>
+        <textarea name="description" id="text-area" cols="30" rows="10" placeholder="type here"></textarea> <br><br>
+        <label for="color">Select Color</label>
+        <input type="color" name="color" id="color"><br><br>
+        <label for="date">Pick date</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="file">Select FIle</label>
+        <input type="file" name="file" id="file"><br><br>
+        <input type="submit" value="sign In"></input>
+        <!-- <button type="submit">Sign in</button> -->
+    </form>
+    
+</body>
+</html>
+
+
+<!-- for in label helps for focusing cursor 
+== action attribute can be used to redirect to some other page
+== %20 means space in url, %40 means @
+== providing name attribute in input tag makes the the data transfered to backend
+== method attribute GET => makes data transfer via url
+== method attribute POST => makes data transfer via http Request Header
+== by default => both radio buttons could be select, so to select either we need to give name attribute same for all as to be data transfered
+== in forms vaule attribute and name attribute can be utilised in the backend as key-value pair kind of data
+== select-option tag for dropdown as name-value representation
+-->

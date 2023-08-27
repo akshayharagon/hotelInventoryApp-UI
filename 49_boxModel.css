@@ -1,0 +1,13 @@
+/* padding : space between border and content */
+/* margin : space outside the border */
+/* css box model : box in computed section of dev tools */
+
+h1{
+    border: 20px red dotted;
+    padding-left: 40px;
+    margin-top: 0px;
+    width: 500px;
+    margin: auto auto;
+    text-align: center; 
+    background: lightblue;
+}

@@ -1,0 +1,24 @@
+/* universal selector */
+*{
+    background: #aaaaaa
+}
+
+/* class in x tag */
+p.my-article{
+    color: red;
+}
+
+/* x tag under y tag => descendant selectors */
+header li{
+    color: blue
+}
+
+/* only x direct descendant of y */
+section > h2{
+    color: green
+}
+
+/* adjacent selector => x tag adjacent to y tag*/
+h2+p{
+    color: orangered
+}

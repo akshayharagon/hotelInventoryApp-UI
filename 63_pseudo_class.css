@@ -1,0 +1,23 @@
+/* pseudo classes for state management, mainly used for links and buttons */
+/* states */
+/* visited, link, hover, active */
+
+/* link=> unvisited */
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: green;
+}
+
+/* active=> click and hold */
+a:active{
+    color: black;
+}
+
+/* better to maintain these in order */

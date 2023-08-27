@@ -1,0 +1,42 @@
+/* #################### flex box is the replacement for float */
+
+/* Flex-container properties */
+
+/* flex container by using display: flex property and flex-items */
+/* here flex-items will become inline-block elements and each item will take equal and adjustable width*/
+
+/* consider flex container as a rectangle in horizontal direction with main axis and cross axis */
+/* flex-items will follow main axis */
+/* flex-direction: row, row-reverse => spreads horizontally */
+/* flex-direction: column, column-reverse => spreads vertically */
+
+/* flex-wrap: wrap propery wraps the flex-items for given width */
+/* wrap-reverse will reverses the cross-axis */
+
+/* justify-content: space-between, start, end, center it utilizes available width*/
+/* align-items will consider required size only */
+
+/* align-content => flow is along with cross axis same as justify-content */
+
+/* flex-flow => shorthand for flex-direction & flex-wrap */
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper{
+    border: 10px solid #222;
+    height: 500px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    align-items: flex-start;
+}
+
+.box{
+    border: 1px solid #666;
+    /* height: 100px; */
+    /* width: 300px; */
+}
+

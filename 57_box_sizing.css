@@ -1,0 +1,21 @@
+hr{
+    width: 500px;
+    margin-left: 0px;
+}
+/* width is 500px but box is taking size with additional padding and border size */
+.box2{
+    width: 500px;
+    background: lightcoral;
+    border: 10px solid black;
+    padding: 30px;
+}
+
+.box1{
+    box-sizing: border-box;
+    width: 500px;
+    background: lightcoral;
+    border: 10px solid black;
+    padding: 30px;
+}
+/* box-sizing css property restrict the size of the box  */
+/* by default it will be content-box which means properties of box2 */
